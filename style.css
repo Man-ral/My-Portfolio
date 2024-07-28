@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: #006663;
+    color: white;
+    display: flex;
+    height: 10vh;
+
+}
+nav{
+    display: flex;
+}
+.Sname{
+    width: 55vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 30px;
+}
+.list{
+    width: 45vw;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list ul{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+.list ul li{
+    display: inline-block;
+    
+}
+main{
+    /* background: linear-gradient(to right, #006663, #a9a1a1ec); */
+    height: 90vh;
+}
+.imageMain{
+    /* background-color: brown; */
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    height: 30vh;
+    width: 30vh;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-image: url(main_img.jpg);
+    background-size: cover;
+    border: 3px solid #006663;
+}
+.allObjective{
+    /* background-color: black; */
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.objective{
+    background-color: azure;
+    height: 50vh;
+    width: 40vh;
+    border-radius: 8px;
+    border: 3px solid #006663;
+    box-shadow: 7px 10px 7px ;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: #006663;
+}
+.objective ul li{
+    color: black;
+    font-size: medium;
+    margin-top: 15px;
+    list-style-type: none;
+}
+.p_link{
+    color: black;
+    border: 2px solid #006663;
+    padding: 4px;
+}
+.objective p{
+    color: black;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.r_link{
+    color: black;
+    border: 2px solid #006663;
+    padding: 4px;
+    
+}
+
+@media screen and ( max-width: 900px) {
+    header{
+        width: 100vh;
+    }
+    .list{
+        width: 100vw;
+    }
+    .imageMain{
+        width: 30rem;
+    }
+    .allObjective{
+        width: 30rem;
+        height: 100rem;
+        display: inline;
+    }
+    .objective{
+        margin: 50px 100px;
+    }
+
+}
